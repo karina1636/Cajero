@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="icon" href="../assets/img/icons.png">
+
+    <title>Cajero Electrónico</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="head">
+
+
+            <div class="logo">
+                <a href="#">Bienvenido</a>
+            </div>
+    
+    
+            <nav class="navbar">
+            
+                <a href="#">A</a>
+
+                <a href="#">ServiBank</a>
+            </nav>
+    
+    
+        </div>
+    </header>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+
+            <form action="#">
+                <h1>Crear una cuenta</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>Utiliza tu correo electrónico para registrarte</span>
+                <input type="text" placeholder="Nombre" >
+                <input type="email" placeholder="Correo">
+                <input type="password" placeholder="Contraseña" >
+             
+                <button class="btn1">Registrar</button>
+
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <div id="login-form">
+            <form action="#" id="login">
+                <h1>Iniciar Sesión</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>o usa tu cuenta</span>
+                <label for="username">Usuario:</label>
+                <input type="email" placeholder="Correo"  id="username" />
+                <label for="password">Contraseña:</label>
+                <input type="password" placeholder="Contraseña" id="password" />
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button class="btn1">Iniciar Sesión</button>
+            </form>
+        </div>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>¡Bienvenido de nuevo!</h1>
+                    <p>Para mantenerse conectado con nosotros, inicie sesión con su información personal</p>
+                    <button class="btn1-ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hola amigo/a</h1>
+                    <p>Introduce tus datos personales y comienza tu viaje con nosotros.</p>
+                    <button class="btn1-ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-menu" style="display: none;">
+        <img src="../assets/img/Cajero.jpg" alt="" class="imgn">
+    
+            <h1>Bienvenido A Tu Cajero Electrónico</h1>
+            <div class="contenedorbutton">
+                <button class="btn1" id="check-balance" >Consultar Saldo</button >
+                <button class="btn1" id="withdraw">Retirar Dinero</button >
+                <button class="btn1" id="transfer">Transferir Cuenta</button>
+                <button class="btn1" id="deposit">Consignar Dinero</button>
+                <button class="btn1" id="show-transactions">Historial de Transacciones</button>
+                <button class="btn1" id="logout">Cerrar Sesión</button>
+
+            </div>
+            <div>
+            <img class="imagenban1" src="../assets/img/Consignar.avif" alt="">
+            <img class="imagenban2" src="../assets/img/ConsultarSaldo.png" alt="">      
+            <img class="imagenban3" src="../assets/img/Historial.avif" alt="">
+            <img class="imagenban4" src="../assets/img/Retirar.png" alt="">
+            <img class="imagenban5" src="../assets/img/salir.png" alt="">
+            <img class="imagenban6" src="../assets/img/Transferencia.jpg" alt="">
+            
+            </div>
+       
+    </div>
+     <div id="register-form" style="display: none;">
+        <h1>Registro</h1>
+        <form id="register">
+            <label for="new-username">Nuevo Usuario:</label>
+            <input type="text" id="new-username" required><br>
+
+            <label for="new-password">Nueva Contraseña:</label>
+            <input type="password" id="new-password" required><br>
+
+            <label for="confirm-password">Confirmar Contraseña:</label>
+            <input type="password" id="confirm-password" required><br>
+            <button id="register-button" onclick="showRegisterForm()">Registrarse</button>
+
+
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+
+
+
+    <script src="../controller/javascript.js"></script>
+    
+</body>
+</html>

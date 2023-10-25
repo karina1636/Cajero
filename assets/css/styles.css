@@ -1,0 +1,115 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    background: black;
+     position: fixed;
+     width: 100%;
+     z-index: 100;
+     position: relative;
+    top: -100px;
+    
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+.logo {
+    margin-left: 30px;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.navbar a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #565656;
+}
+.imgn{
+    height: 500px;
+}
+
+:root{
+    --color: #17a2ff;
+ }
+.contenedorbutton{
+    display: flex;
+    height: 100vh;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    border: 5px solid;
+}
+.btn1:hover:hover{
+    background-color: #045479;
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+}
+.imagenban1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:-750px;
+    left: 790px;
+}
+.imagenban2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:-770px;
+    left: -290px;
+}
+.imagenban3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:-400px;
+    left: -300px;
+}
+.imagenban4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:-750px;
+    left: -250px;
+}
+.imagenban5{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:-400px;
+    left: 150px;
+}
+
+.imagenban6{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:-750px;
+    left: -170px;
+}
+
+
+
